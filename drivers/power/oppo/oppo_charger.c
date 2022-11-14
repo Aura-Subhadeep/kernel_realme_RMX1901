@@ -3824,7 +3824,7 @@ static void oppo_chg_variables_init(struct oppo_chg_chip *chip)
 	chip->charger_type = POWER_SUPPLY_TYPE_UNKNOWN;
 	chip->charger_volt = 0;
 	chip->vchg_status = CHARGER_STATUS__GOOD;
-	chip->prop_status = POWER_SUPPLY_STATUS_NOT_DISCHARGING;
+	chip->prop_status = POWER_SUPPLY_STATUS_NOT_CHARGING;
 	chip->sw_full_count = 0;
 	chip->sw_full = false;
 	chip->batt_exist = true;
